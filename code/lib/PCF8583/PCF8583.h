@@ -106,10 +106,6 @@ class PCF8583 {
         void setCount(unsigned long count);
         unsigned long getCount();
 
-
-        void dump(uint8_t offset, uint8_t length);
-
-
     private:
 
         void stop();

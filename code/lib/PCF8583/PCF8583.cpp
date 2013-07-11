@@ -260,16 +260,6 @@ unsigned long PCF8583::getCount() {
 
 }
 
-void PCF8583::dump(uint8_t offset, uint8_t length) {
-    Wire.beginTransmission(_address);
-    Wire.write(offset);
-    Wire.endTransmission();
-    Wire.requestFrom(_address, length);
-    while (Wire.available()) {
-        Serial.println(Wire.read());
-    }
-}
-
 // Private methods
 
 void PCF8583::stop() {
