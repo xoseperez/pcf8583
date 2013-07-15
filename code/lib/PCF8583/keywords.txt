@@ -1,0 +1,63 @@
+###########################################
+# Syntax Coloring Map For PCF8583
+###########################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+
+PCF8583                 KEYWORD1
+
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
+
+reset                   KEYWORD2
+
+setMode                 KEYWORD2
+getMode                 KEYWORD2
+
+getMillisecond          KEYWORD2
+getSecond               KEYWORD2
+getMinute               KEYWORD2
+getHour                 KEYWORD2
+getTime                 KEYWORD2
+getISOTime              KEYWORD2
+setTime                 KEYWORD2
+
+getDay                  KEYWORD2
+getMonth                KEYWORD2
+getYear                 KEYWORD2
+getWeekday              KEYWORD2
+getISODate              KEYWORD2
+setDate                 KEYWORD2
+
+setDateTime             KEYWORD2
+
+setAlarm                KEYWORD2
+setCountAlarm           KEYWORD2
+enableAlarm             KEYWORD2
+disableAlarm            KEYWORD2
+clearInterrupt          KEYWORD2
+
+setCount                KEYWORD2
+getCount                KEYWORD2
+
+###########################################
+# Constants (LITERAL1)
+###########################################
+
+MODE_CLOCK_32KHZ        LITERAL1
+MODE_CLOCK_50HZ         LITERAL1
+MODE_EVENT_COUNTER      LITERAL1
+MODE_TEST               LITERAL1
+
+MONDAY                  LITERAL1
+TUESDAY                 LITERAL1
+WEDNESDAY               LITERAL1
+THURSDAY                LITERAL1
+FRIDAY                  LITERAL1
+SATURDAY                LITERAL1
+SUNDAY                  LITERAL1
+
+
