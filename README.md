@@ -2,6 +2,8 @@
 
 PCF8583 Real Time Clock and Event Counter Library for Arduino
 
+You can read about this library in my blog: http://tinkerman.eldiariblau.net/counting-events-with-arduino-and-pcf8583/
+
 ## Whys
 
 ### Why is your folders structure the way it is?
