@@ -44,10 +44,10 @@
 #define LOCATION_LAST_YEAR 0x11
 
 // Function modes
-#define MODE_CLOCK_32KHZ 0
-#define MODE_CLOCK_50HZ 8
-#define MODE_EVENT_COUNTER 16
-#define MODE_TEST 24
+#define MODE_CLOCK_32KHZ 0x00
+#define MODE_CLOCK_50HZ 0x10
+#define MODE_EVENT_COUNTER 0x20
+#define MODE_TEST 0x30
 
 // Weekdays
 #define MONDAY 0
