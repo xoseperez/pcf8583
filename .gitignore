@@ -1,3 +1,4 @@
 # PlatformIO
 .pioenvs
 .sconsign.dblite
+.piolibdeps

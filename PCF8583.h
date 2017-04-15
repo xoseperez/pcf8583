@@ -1,7 +1,7 @@
 /*
 
   PCF8583 RTC and Event Counter Library for Arduino
-  Copyright (C) 2013 by Xose Pérez <xose dot perez at gmail dot com>
+  Copyright (C) 2013-2017 by Xose Pérez <xose dot perez at gmail dot com>
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -90,7 +90,6 @@ class PCF8583 {
         void setDate(uint8_t day, uint8_t month, int year);
         void setDate(uint8_t day, uint8_t month, int year, uint8_t weekday);
 
-
         // Date and time
         void setDateTime(uint8_t sec, uint8_t min, uint8_t hour, uint8_t day, uint8_t month, int year);
         void setDateTime(uint8_t sec, uint8_t min, uint8_t hour, uint8_t day, uint8_t month, int year, uint8_t weekday);
@@ -106,12 +105,14 @@ class PCF8583 {
         void setCount(unsigned long count);
         unsigned long getCount();
 
+        // Low level access
+        void setRegister(uint8_t offset, uint8_t value);
+        uint8_t getRegister(uint8_t offset);
+
     private:
 
         void stop();
         void start();
-        void setRegister(uint8_t offset, uint8_t value);
-        uint8_t getRegister(uint8_t offset);
         uint8_t byte2bcd(uint8_t value);
         uint8_t bcd2byte(uint8_t value);
 
@@ -120,4 +121,3 @@ class PCF8583 {
 };
 
 #endif
-
