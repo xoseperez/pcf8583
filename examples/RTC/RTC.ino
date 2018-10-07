@@ -2,7 +2,7 @@
 
 PCF8583 rtc(0xA0);
 
-void assertEquals(char * test, byte expected, byte real) {
+void assertEquals(const char * test, byte expected, byte real) {
     if (expected == real) {
         Serial.println("OK");
     } else {
