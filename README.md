@@ -5,7 +5,6 @@ PCF8583 Real Time Clock and Event Counter Library for Arduino
 [![version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg)](CHANGELOG.md)
 [![codacy](https://img.shields.io/codacy/grade/c80622b0dd73458ab1de6aed6d01eae2/master.svg)](https://www.codacy.com/app/xoseperez/pcf8583/dashboard)
 [![license](https://img.shields.io/badge/license-LGPL--3.0-orange.svg)](LICENSE)
-<br />
 [![donate](https://img.shields.io/badge/donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=xose%2eperez%40gmail%2ecom&lc=US&no_note=0&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHostedGuest)
 [![twitter](https://img.shields.io/twitter/follow/xoseperez.svg?style=social)](https://twitter.com/intent/follow?screen_name=xoseperez)
 
